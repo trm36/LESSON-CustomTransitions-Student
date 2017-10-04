@@ -27,7 +27,6 @@ class FlippinPresentAnimatedTransitionController: NSObject, UIViewControllerAnim
         let cellFrame = collectionView.convert(cell.frame, to: collectionViewController.view)
         detailViewSnapshot.frame = cellFrame
         
-        
         let containerView = transitionContext.containerView
         containerView.addSubview(detailViewController.view)
         containerView.addSubview(detailViewSnapshot)
@@ -37,8 +36,6 @@ class FlippinPresentAnimatedTransitionController: NSObject, UIViewControllerAnim
         detailViewSnapshot.layer.transform = CATransform3D.makeYRotation(yAngleDegrees: 90.0)
         
         let duration = transitionDuration(using: transitionContext)
-        
-        
         
         let keyframeAnimation0 = {
             collectionViewController.view.layer.transform = CATransform3D.makeYRotation(yAngleDegrees: -90.0)

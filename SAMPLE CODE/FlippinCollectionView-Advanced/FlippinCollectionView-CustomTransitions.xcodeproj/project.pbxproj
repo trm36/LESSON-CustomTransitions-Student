@@ -77,8 +77,8 @@
 		0114D6CB1F858DF600DA5758 /* Transition Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				0114D6C01F857ECD00DA5758 /* FlippinDismissAnimatedTransitionController.swift */,
 				0114D6C21F857EDD00DA5758 /* FlippinPresentAnimatedTransitionController.swift */,
+				0114D6C01F857ECD00DA5758 /* FlippinDismissAnimatedTransitionController.swift */,
 			);
 			path = "Transition Controllers";
 			sourceTree = "<group>";
