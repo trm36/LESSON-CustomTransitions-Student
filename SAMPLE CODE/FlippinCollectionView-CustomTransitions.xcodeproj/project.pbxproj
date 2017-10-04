@@ -1,0 +1,381 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0114D6BF1F857D7200DA5758 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0114D6BE1F857D7200DA5758 /* DetailViewController.swift */; };
+		0114D6C11F857ECD00DA5758 /* FlippinDismissAnimatedTransitionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0114D6C01F857ECD00DA5758 /* FlippinDismissAnimatedTransitionController.swift */; };
+		0114D6C31F857EDD00DA5758 /* FlippinPresentAnimatedTransitionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0114D6C21F857EDD00DA5758 /* FlippinPresentAnimatedTransitionController.swift */; };
+		0114D6C51F857EEC00DA5758 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0114D6C41F857EEC00DA5758 /* Extensions.swift */; };
+		0114D6C71F8588D500DA5758 /* LabelCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0114D6C61F8588D500DA5758 /* LabelCollectionViewCell.swift */; };
+		0130F0541F857AE700BEE66A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0130F0531F857AE700BEE66A /* AppDelegate.swift */; };
+		0130F0591F857AE700BEE66A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0130F0571F857AE700BEE66A /* Main.storyboard */; };
+		0130F05B1F857AE700BEE66A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0130F05A1F857AE700BEE66A /* Assets.xcassets */; };
+		0130F05E1F857AE700BEE66A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0130F05C1F857AE700BEE66A /* LaunchScreen.storyboard */; };
+		0130F0661F857B6300BEE66A /* FlippinCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0130F0651F857B6300BEE66A /* FlippinCollectionViewController.swift */; };
+		0130F0681F857B8100BEE66A /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0130F0671F857B8100BEE66A /* Color.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0114D6BE1F857D7200DA5758 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		0114D6C01F857ECD00DA5758 /* FlippinDismissAnimatedTransitionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlippinDismissAnimatedTransitionController.swift; sourceTree = "<group>"; };
+		0114D6C21F857EDD00DA5758 /* FlippinPresentAnimatedTransitionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlippinPresentAnimatedTransitionController.swift; sourceTree = "<group>"; };
+		0114D6C41F857EEC00DA5758 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		0114D6C61F8588D500DA5758 /* LabelCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelCollectionViewCell.swift; sourceTree = "<group>"; };
+		0130F0501F857AE700BEE66A /* FlippinCollectionView-CustomTransitions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FlippinCollectionView-CustomTransitions.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0130F0531F857AE700BEE66A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0130F0581F857AE700BEE66A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0130F05A1F857AE700BEE66A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0130F05D1F857AE700BEE66A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0130F05F1F857AE700BEE66A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0130F0651F857B6300BEE66A /* FlippinCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlippinCollectionViewController.swift; sourceTree = "<group>"; };
+		0130F0671F857B8100BEE66A /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0130F04D1F857AE700BEE66A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0114D6C81F858DD900DA5758 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0130F0651F857B6300BEE66A /* FlippinCollectionViewController.swift */,
+				0114D6BE1F857D7200DA5758 /* DetailViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		0114D6C91F858DDF00DA5758 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0130F05C1F857AE700BEE66A /* LaunchScreen.storyboard */,
+				0130F0571F857AE700BEE66A /* Main.storyboard */,
+				0114D6C61F8588D500DA5758 /* LabelCollectionViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0114D6CA1F858DE600DA5758 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0130F0671F857B8100BEE66A /* Color.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0114D6CB1F858DF600DA5758 /* Transition Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0114D6C01F857ECD00DA5758 /* FlippinDismissAnimatedTransitionController.swift */,
+				0114D6C21F857EDD00DA5758 /* FlippinPresentAnimatedTransitionController.swift */,
+			);
+			path = "Transition Controllers";
+			sourceTree = "<group>";
+		};
+		0130F0471F857AE700BEE66A = {
+			isa = PBXGroup;
+			children = (
+				0130F0521F857AE700BEE66A /* FlippinCollectionView-CustomTransitions */,
+				0130F0511F857AE700BEE66A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0130F0511F857AE700BEE66A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0130F0501F857AE700BEE66A /* FlippinCollectionView-CustomTransitions.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0130F0521F857AE700BEE66A /* FlippinCollectionView-CustomTransitions */ = {
+			isa = PBXGroup;
+			children = (
+				0130F05F1F857AE700BEE66A /* Info.plist */,
+				0130F0531F857AE700BEE66A /* AppDelegate.swift */,
+				0114D6C41F857EEC00DA5758 /* Extensions.swift */,
+				0114D6C81F858DD900DA5758 /* View Controllers */,
+				0114D6C91F858DDF00DA5758 /* Views */,
+				0114D6CB1F858DF600DA5758 /* Transition Controllers */,
+				0114D6CA1F858DE600DA5758 /* Model */,
+				0130F05A1F857AE700BEE66A /* Assets.xcassets */,
+			);
+			path = "FlippinCollectionView-CustomTransitions";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0130F04F1F857AE700BEE66A /* FlippinCollectionView-CustomTransitions */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0130F0621F857AE700BEE66A /* Build configuration list for PBXNativeTarget "FlippinCollectionView-CustomTransitions" */;
+			buildPhases = (
+				0130F04C1F857AE700BEE66A /* Sources */,
+				0130F04D1F857AE700BEE66A /* Frameworks */,
+				0130F04E1F857AE700BEE66A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FlippinCollectionView-CustomTransitions";
+			productName = "FlippinCollectionView-CustomTransitions";
+			productReference = 0130F0501F857AE700BEE66A /* FlippinCollectionView-CustomTransitions.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0130F0481F857AE700BEE66A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Mott Applications";
+				TargetAttributes = {
+					0130F04F1F857AE700BEE66A = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 0130F04B1F857AE700BEE66A /* Build configuration list for PBXProject "FlippinCollectionView-CustomTransitions" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0130F0471F857AE700BEE66A;
+			productRefGroup = 0130F0511F857AE700BEE66A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0130F04F1F857AE700BEE66A /* FlippinCollectionView-CustomTransitions */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0130F04E1F857AE700BEE66A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0130F05E1F857AE700BEE66A /* LaunchScreen.storyboard in Resources */,
+				0130F05B1F857AE700BEE66A /* Assets.xcassets in Resources */,
+				0130F0591F857AE700BEE66A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0130F04C1F857AE700BEE66A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0130F0681F857B8100BEE66A /* Color.swift in Sources */,
+				0114D6BF1F857D7200DA5758 /* DetailViewController.swift in Sources */,
+				0114D6C71F8588D500DA5758 /* LabelCollectionViewCell.swift in Sources */,
+				0114D6C51F857EEC00DA5758 /* Extensions.swift in Sources */,
+				0130F0541F857AE700BEE66A /* AppDelegate.swift in Sources */,
+				0114D6C31F857EDD00DA5758 /* FlippinPresentAnimatedTransitionController.swift in Sources */,
+				0130F0661F857B6300BEE66A /* FlippinCollectionViewController.swift in Sources */,
+				0114D6C11F857ECD00DA5758 /* FlippinDismissAnimatedTransitionController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0130F0571F857AE700BEE66A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0130F0581F857AE700BEE66A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0130F05C1F857AE700BEE66A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0130F05D1F857AE700BEE66A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0130F0601F857AE700BEE66A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0130F0611F857AE700BEE66A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0130F0631F857AE700BEE66A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "FlippinCollectionView-CustomTransitions/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MottApplications.FlippinCollectionView-CustomTransitions";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0130F0641F857AE700BEE66A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "FlippinCollectionView-CustomTransitions/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MottApplications.FlippinCollectionView-CustomTransitions";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0130F04B1F857AE700BEE66A /* Build configuration list for PBXProject "FlippinCollectionView-CustomTransitions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0130F0601F857AE700BEE66A /* Debug */,
+				0130F0611F857AE700BEE66A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0130F0621F857AE700BEE66A /* Build configuration list for PBXNativeTarget "FlippinCollectionView-CustomTransitions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0130F0631F857AE700BEE66A /* Debug */,
+				0130F0641F857AE700BEE66A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0130F0481F857AE700BEE66A /* Project object */;
+}
