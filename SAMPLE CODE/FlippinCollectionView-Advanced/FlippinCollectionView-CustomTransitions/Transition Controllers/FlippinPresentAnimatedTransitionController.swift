@@ -47,9 +47,9 @@ class FlippinPresentAnimatedTransitionController: NSObject, UIViewControllerAnim
             detailViewSnapshot.frame = transitionContext.finalFrame(for: detailViewController)
         }
         
-        presentAnimations(with: duration,
-                          keyframeAnimations: [keyframeAnimation0, keyframeAnimation1, keyframeAnimation2],
-                          completion: { (complete: Bool) in
+        animateTransition(with: duration,
+            keyframeAnimations: [keyframeAnimation0, keyframeAnimation1, keyframeAnimation2],
+                    completion: { (complete: Bool) in
                             detailViewController.view.isHidden = false
                             detailViewSnapshot.removeFromSuperview()
                             transitionContext.completeTransition(complete)
@@ -57,7 +57,7 @@ class FlippinPresentAnimatedTransitionController: NSObject, UIViewControllerAnim
     }
     
     
-    func presentAnimations(with duration: TimeInterval, keyframeAnimations: [() -> Void], completion: @escaping (Bool) -> Void) {
+    func animateTransition(with duration: TimeInterval, keyframeAnimations: [() -> Void], completion: @escaping (Bool) -> Void) {
         
         UIView.animateKeyframes(withDuration: duration,
                                 delay: 0.0,
