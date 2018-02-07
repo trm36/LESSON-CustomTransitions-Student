@@ -12,7 +12,7 @@ class FlippinPresentAnimatedTransitionController: NSObject, UIViewControllerAnim
     
     
     func transitionDuration(using transitionContext: UIViewControllerContextTransitioning?) -> TimeInterval {
-        return 0.75
+        return 3
     }
     
     func animateTransition(using transitionContext: UIViewControllerContextTransitioning) {
@@ -47,7 +47,7 @@ class FlippinPresentAnimatedTransitionController: NSObject, UIViewControllerAnim
             detailViewSnapshot.frame = transitionContext.finalFrame(for: detailViewController)
         }
         
-        animateTransition(with: duration,
+        animateTransitionEvenly(with: duration,
             keyframeAnimations: [keyframeAnimation0, keyframeAnimation1, keyframeAnimation2],
                     completion: { (complete: Bool) in
                             detailViewController.view.isHidden = false
@@ -57,7 +57,7 @@ class FlippinPresentAnimatedTransitionController: NSObject, UIViewControllerAnim
     }
     
     
-    func animateTransition(with duration: TimeInterval, keyframeAnimations: [() -> Void], completion: @escaping (Bool) -> Void) {
+    func animateTransitionEvenly(with duration: TimeInterval, keyframeAnimations: [() -> Void], completion: @escaping (Bool) -> Void) {
         
         UIView.animateKeyframes(withDuration: duration,
                                 delay: 0.0,
