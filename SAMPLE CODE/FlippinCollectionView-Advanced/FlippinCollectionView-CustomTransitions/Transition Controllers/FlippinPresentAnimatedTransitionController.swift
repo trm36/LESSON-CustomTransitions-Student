@@ -12,7 +12,7 @@ class FlippinPresentAnimatedTransitionController: NSObject, UIViewControllerAnim
     
     
     func transitionDuration(using transitionContext: UIViewControllerContextTransitioning?) -> TimeInterval {
-        return 3
+        return 0.75
     }
     
     func animateTransition(using transitionContext: UIViewControllerContextTransitioning) {

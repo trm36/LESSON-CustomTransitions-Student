@@ -105,7 +105,6 @@
 				TargetAttributes = {
 					0100E7811E54E6BB00CD10D3 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = B9KMJ3NRM7;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -271,7 +270,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = B9KMJ3NRM7;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = CustomTransition/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.humboldt.trm36.CustomTransition;
@@ -284,7 +283,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = B9KMJ3NRM7;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = CustomTransition/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.humboldt.trm36.CustomTransition;
@@ -312,6 +311,7 @@
 				0100E7961E54E6BB00CD10D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
